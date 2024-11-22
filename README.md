@@ -2,7 +2,7 @@
 
 **Full Readme and code will be available soon.**
 
-This is the official implementation for [TS-LLaVA: Constructing Visual Tokens through Thumbnail-and-Sampling for Training-Free Video Large Language Models]()
+This is the official implementation for [TS-LLaVA: Constructing Visual Tokens through Thumbnail-and-Sampling for Training-Free Video Large Language Models](https://arxiv.org/abs/2411.11066)
 
 by [Tingyu Qu](https://tingyu215.github.io), [Mingxiao Li](https://mingxiao-li.github.io), [Tinne Tuytelaars](https://www.esat.kuleuven.be/psi/TT), [Marie-Francine Moens](https://people.cs.kuleuven.be/~sien.moens/).
 
@@ -11,6 +11,38 @@ by [Tingyu Qu](https://tingyu215.github.io), [Mingxiao Li](https://mingxiao-li.g
 
 
 We explore various visual tokens compression strategies. Our TS-LLaVA achieves the state-of-the-art performance among trianing-free video LLMs.
+
+
+#### Multiple Choice VideoQA:
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ts-llava-constructing-visual-tokens-through/zero-shot-video-question-answer-on-intentqa)](https://paperswithcode.com/sota/zero-shot-video-question-answer-on-intentqa?p=ts-llava-constructing-visual-tokens-through)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ts-llava-constructing-visual-tokens-through/zero-shot-video-question-answer-on-next-qa)](https://paperswithcode.com/sota/zero-shot-video-question-answer-on-next-qa?p=ts-llava-constructing-visual-tokens-through)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ts-llava-constructing-visual-tokens-through/zero-shot-video-question-answer-on-egoschema)](https://paperswithcode.com/sota/zero-shot-video-question-answer-on-egoschema?p=ts-llava-constructing-visual-tokens-through)
+
+
+#### Multitask Benchmarks
+
+**Ranked #10: the average accuracy for multple choice questions on MLVU-test**
+
+
+
+
+#### Open-Ended VideoQA & Video-based Text Generation
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ts-llava-constructing-visual-tokens-through/zeroshot-video-question-answer-on-tgif-qa)](https://paperswithcode.com/sota/zeroshot-video-question-answer-on-tgif-qa?p=ts-llava-constructing-visual-tokens-through)
+
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ts-llava-constructing-visual-tokens-through/zeroshot-video-question-answer-on-activitynet)](https://paperswithcode.com/sota/zeroshot-video-question-answer-on-activitynet?p=ts-llava-constructing-visual-tokens-through)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ts-llava-constructing-visual-tokens-through/zeroshot-video-question-answer-on-msrvtt-qa)](https://paperswithcode.com/sota/zeroshot-video-question-answer-on-msrvtt-qa?p=ts-llava-constructing-visual-tokens-through)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ts-llava-constructing-visual-tokens-through/zeroshot-video-question-answer-on-msvd-qa)](https://paperswithcode.com/sota/zeroshot-video-question-answer-on-msvd-qa?p=ts-llava-constructing-visual-tokens-through)
+
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ts-llava-constructing-visual-tokens-through/video-based-generative-performance)](https://paperswithcode.com/sota/video-based-generative-performance?p=ts-llava-constructing-visual-tokens-through)
+
+
 
 
 ## Installation
@@ -86,3 +118,13 @@ The checkpoints for LLaVA-v1.6 can be found here:
     - MLVU
         - Download the data from [`here`](https://huggingface.co/datasets/MLVU/MVLU)
         - The official repo can be found [`here`](https://github.com/JUNJIE99/MLVU)
+
+
+## Citation
+
+    @article{qu2024tsllava,
+    title={TS-LLaVA: Constructing Visual Tokens through Thumbnail-and-Sampling for Training-Free Video Large Language Models}, 
+    author={Tingyu Qu and Mingxiao Li and Tinne Tuytelaars and Marie-Francine Moens},
+    year={2024},
+    journal={arXiv preprint arXiv:2411.11066},
+    }
