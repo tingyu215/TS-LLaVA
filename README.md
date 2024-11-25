@@ -18,8 +18,9 @@ We explore various visual tokens compression strategies. Our TS-LLaVA achieves t
 - [Installation](#installation)
 - [Dataset Preparation](#dataset-preparation)
 - [Inference and Evaluation](#inference-and-evaluation)
-    - [Output Structures](#output-structures)
+- [Acknowledgement](#acknowledgement)
 - [Citations](#citations)
+
 
 
 ## Results
@@ -212,12 +213,16 @@ The default value for ``PROMPT_VERSION`` is ``v3``. The rest are the same as Mul
 **For VCGBench (Video ChatGPT), the inference and evaluation procedures are similar. Please refer to run_gen_qa_{TASK_TYPE}.sh and eval_gen_qa.sh**
 
 
+## Acknowledgement
+We extend our gratitude to the following awesome projects: [LLaVA](https://github.com/haotian-liu/LLaVA), [FreeVA](https://github.com/whwu95/FreeVA), [IG-VLM](https://github.com/imagegridworth/IG-VLM) and [SF-LLaVA](https://github.com/apple/ml-slowfast-llava).
+
+
 
 ## Citations
 
     @article{qu2024tsllava,
-    title={TS-LLaVA: Constructing Visual Tokens through Thumbnail-and-Sampling for Training-Free Video Large Language Models}, 
-    author={Tingyu Qu and Mingxiao Li and Tinne Tuytelaars and Marie-Francine Moens},
-    year={2024},
-    journal={arXiv preprint arXiv:2411.11066},
+        title={TS-LLaVA: Constructing Visual Tokens through Thumbnail-and-Sampling for Training-Free Video Large Language Models}, 
+        author={Tingyu Qu and Mingxiao Li and Tinne Tuytelaars and Marie-Francine Moens},
+        year={2024},
+        journal={arXiv preprint arXiv:2411.11066},
     }
