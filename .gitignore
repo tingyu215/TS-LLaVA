@@ -1,0 +1,8 @@
+ckpt/*
+output/*
+__pycache__
+cache_dir
+playground/*
+slurm*.sh
+scripts/eval/eval_test/*
+scripts/eval/eval_test_1/*
