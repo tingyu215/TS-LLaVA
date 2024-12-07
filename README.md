@@ -12,6 +12,8 @@ by [Tingyu Qu](https://tingyu215.github.io), [Mingxiao Li](https://mingxiao-li.g
 
 We explore various visual tokens compression strategies. Our TS-LLaVA achieves the state-of-the-art performance among trianing-free video LLMs.
 
+**Our ModelScope repo is available at: https://www.modelscope.cn/models/tingyuqu/TS-LLaVA**
+
 
 ## Table of contents
 - [Results](#results)
@@ -66,8 +68,15 @@ To create conda env, please run:
     conda env create -n llava --file llava.yml
     conda activate llava
 
-* Two packages, i.e. llava and flash-attention, are commented out from the yml file, as direct installation can cause problems. Please refer to [the original LLaVA repo](https://github.com/haotian-liu/LLaVA) for installing them.
-* One can also directly follow the installation process as recorded in [the original LLaVA repo](https://github.com/haotian-liu/LLaVA).
+Install additional packages (llava & flash-attention)
+
+    pip install flash-attn --no-build-isolation
+    pip install -e ".[train]"
+
+* These two packages, i.e. llava and flash-attention, are commented out from the yml file.
+In case of problems, please refer to [the original LLaVA repo](https://github.com/haotian-liu/LLaVA).
+
+<!-- * Two packages, i.e. llava and flash-attention, are commented out from the yml file, as direct installation can cause problems. Please refer to [the original LLaVA repo](https://github.com/haotian-liu/LLaVA) for installing them. -->
 
 ### Downloading the checkpoints:
 The checkpoints for LLaVA-v1.6 can be found here:
