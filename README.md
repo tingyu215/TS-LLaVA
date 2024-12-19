@@ -36,7 +36,7 @@ We explore various visual tokens compression strategies. Our TS-LLaVA achieves t
 
 #### Multitask Benchmarks
 
-**Ranked #10: the average accuracy for multple choice questions on MLVU-test**
+**Ranked #9 among all video LLMs:** the average accuracy for multple choice questions on [MLVU-test Leaderboard](https://github.com/JUNJIE99/MLVU)
 
 
 
