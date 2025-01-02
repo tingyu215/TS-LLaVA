@@ -438,6 +438,8 @@ class LlavaMetaForCausalLM(ABC):
             
             if self.config.aggregation_method.endswith("z"):
                 do_shuffle=True
+            else:
+                do_shuffle=False
             sampled_images = create_image_grid(sampled_images, shuffling=do_shuffle)
             grid_image_features = self.encode_images(sampled_images.unsqueeze(0))
 
